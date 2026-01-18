@@ -56,7 +56,6 @@ nav > span {
 /* banner design */
 
 .banner-container {
-  border: 2px solid red;
   min-height: 400px;
   padding: 10px;
   display: flex;
@@ -66,7 +65,6 @@ nav > span {
 }
 
 .banner-left {
-  border: 2px solid green;
   min-height: 200px;
   width: 50%;
 }
@@ -75,30 +73,74 @@ nav > span {
   font-size: 78px;
 }
 
-.banner-left p{
-    margin-top: 28px;
-    margin-bottom: 28px;
+.banner-left p {
+  margin-top: 28px;
+  margin-bottom: 28px;
 }
 
-.btn-container>button{
-    width: 200px;
-    height: 54px;
-    border-radius: 42px;
-    border: none;
-    color: white;
-    gap: 14px;
+.btn-container > button {
+  width: 200px;
+  height: 54px;
+  border-radius: 42px;
+  border: none;
+  color: white;
+  gap: 14px;
 }
 
 .banner-right {
-  border: 2px solid blue;
   min-height: 200px;
   width: 50%;
   display: flex;
   justify-content: end;
+  position: relative;
 }
 
-.banner-right>img{
-    width: 52%;
+.banner-right > img {
+  width: 55%;
+  object-fit: cover;
+}
+
+.tooltip {
+  background-color: rgba(128, 128, 128, 0.226);
+  position: absolute;
+  right: 0;
+
+  width: 193px;
+  height: 98px;
+
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 12px;
+  top: 20%;
+  right: -19%;
+}
+
+.tooltip2 {
+  background-color: rgba(128, 128, 128, 0.342);
+  position: absolute;
+  left: 0;
+  display: flex;
+
+  width: 193px;
+  height: 98px;
+
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 12px;
+  top: 60%;
+  left: 19%;
+  gap: 10px;
+
+
+}
+
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #e6533c;
+    margin-top: 10px;
+
 }
 
 /* responsive */
