@@ -1,27 +1,66 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
 }
 
 /* Navbar design */
 
-nav{
-    border: 2px solid red;
-    padding: 5px;
-    display: flex;
-    max-width: 1060px;
-    margin: 0 auto;
-    justify-content: space-between;
-
+nav {
+  padding: 5px;
+  display: flex;
+  max-width: 1060px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
 }
 
-nav>p{
-    border: 2px solid green;
+nav > p {
+  font-size: 36px;
+  color: rgba(230, 83, 60, 1);
+  font-weight: bold;
+  font-style: italic;
 }
 
-nav>div{
-    border: 2px solid blue;
-    display: flex;
-    gap: 47px;
+nav > div {
+  border: 2px solid blue;
+  display: flex;
+  gap: 47px;
+  align-items: center;
+  border-radius: 40px;
+  padding: 12px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+nav > span {
+  margin-right: 5px;
+  margin-top: 5px;
+  display: none;
+}
+
+.home-btn {
+  background-color: #e6533c;
+  padding: 8px 20px;
+  border-radius: 46px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 425px) {
+  .menu-container {
+    display: none;
+  }
+
+  nav > span {
+    display: inline;
+  }
 }
