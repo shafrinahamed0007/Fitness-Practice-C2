@@ -53,6 +53,54 @@ nav > span {
   border-radius: 46px;
 }
 
+/* banner design */
+
+.banner-container {
+  border: 2px solid red;
+  min-height: 400px;
+  padding: 10px;
+  display: flex;
+  max-width: 1060px;
+  margin: 0 auto;
+  margin-top: 96px;
+}
+
+.banner-left {
+  border: 2px solid green;
+  min-height: 200px;
+  width: 50%;
+}
+
+.banner-left h1 {
+  font-size: 78px;
+}
+
+.banner-left p{
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.btn-container>button{
+    width: 200px;
+    height: 54px;
+    border-radius: 42px;
+    border: none;
+    color: white;
+    gap: 14px;
+}
+
+.banner-right {
+  border: 2px solid blue;
+  min-height: 200px;
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+.banner-right>img{
+    width: 52%;
+}
+
 /* responsive */
 
 @media screen and (max-width: 425px) {
