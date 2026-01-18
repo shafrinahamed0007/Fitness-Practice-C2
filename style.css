@@ -97,7 +97,6 @@ nav > span {
 
 .banner-right > img {
   width: 55%;
-  object-fit: cover;
 }
 
 .tooltip {
@@ -130,17 +129,14 @@ nav > span {
   top: 60%;
   left: 19%;
   gap: 10px;
-
-
 }
 
-.circle{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #e6533c;
-    margin-top: 10px;
-
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #e6533c;
+  margin-top: 10px;
 }
 
 /* responsive */
@@ -153,4 +149,32 @@ nav > span {
   nav > span {
     display: inline;
   }
+
+  .banner-container {
+    flex-direction: column;
+  }
+
+  .banner-left,
+  .banner-right {
+    width: 100%;
+  }
+
+  .banner-right{
+    justify-content: center;
+  }
+
+  .banner-right > img {
+    width: 70%;
+  }
+
+  .tooltip {
+  
+  border-radius: 12px;
+  top: 10%;
+  right: 13%;
+}
+
+  
+
+  
 }
