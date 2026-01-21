@@ -51,6 +51,7 @@ nav>span {
   background-color: #e6533c;
   padding: 8px 20px;
   border-radius: 46px;
+  color: white;
 }
 
 /* banner design */
@@ -140,8 +141,8 @@ nav>span {
 }
 
 /* Run & Extra Section */
-.runextra{
-  border: 1px solid red;
+.runextra {
+
   width: 1050px;
   min-height: 400px;
   margin: 100px auto;
@@ -149,13 +150,46 @@ nav>span {
   display: flex;
   padding: 20px;
   align-items: center;
+  border-radius: 18px;
+  gap: 160px;
 }
 
-.runextra div>img{
+.runextra div>img {
   width: 366px;
   height: 312px;
   border-radius: 18px;
 }
+
+.runextra-content{
+  margin-left: 54px;
+}
+
+.runextra-content>h1{
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 14px;
+
+  }
+
+  .runextra-content>p{
+   
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    margin-bottom: 34px;
+  }
+
+  .join-btn{
+    padding: 16px 40px;
+    border-radius: 42px;
+    background-color: #E6533C;
+    width: 220px;
+    font-size: 18px;
+    font-weight:600 ;
+    border: none;
+    color: white;
+
+
+  }
 
 
 
@@ -273,6 +307,10 @@ nav>span {
     display: none;
   }
 
+  .sm-display-none{
+    display: none;
+  }
+
   nav>span {
     display: inline;
   }
@@ -352,6 +390,29 @@ nav>span {
     background-color: green;
     margin-left: 50px;
 
+
+  }
+  .runextra{
+    width: 350px;
+    flex-direction: column;
+    padding: 33px;
+    gap: 30px;
+    margin: 0px 30px;
+  }
+
+  .runextra div>img{
+    width: 287px;
+    height: 170px;
+  }
+
+  .runextra-content{
+  
+    margin-left: 0px;
+  }
+
+  .runextra-content>h1{
+    font-size: 32px;
+    
 
   }
 
