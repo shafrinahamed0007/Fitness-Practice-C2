@@ -160,36 +160,36 @@ nav>span {
   border-radius: 18px;
 }
 
-.runextra-content{
+.runextra-content {
   margin-left: 54px;
 }
 
-.runextra-content>h1{
+.runextra-content>h1 {
   font-size: 48px;
   font-weight: 900;
   margin-bottom: 14px;
 
-  }
+}
 
-  .runextra-content>p{
-   
-    font-size: 14px;
-    letter-spacing: 0.3px;
-    margin-bottom: 34px;
-  }
+.runextra-content>p {
 
-  .join-btn{
-    padding: 16px 40px;
-    border-radius: 42px;
-    background-color: #E6533C;
-    width: 220px;
-    font-size: 18px;
-    font-weight:600 ;
-    border: none;
-    color: white;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  margin-bottom: 34px;
+}
+
+.join-btn {
+  padding: 16px 40px;
+  border-radius: 42px;
+  background-color: #E6533C;
+  width: 220px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  color: white;
 
 
-  }
+}
 
 
 
@@ -300,6 +300,67 @@ nav>span {
   grid-column: 1/ 3;
 }
 
+
+/* Our Team Section */
+.team-section {
+
+  width: 1060px;
+  min-height: 400px;
+  margin: 120px auto;
+  justify-items: center;
+}
+
+.team-section-content {
+  width: 670px;
+  text-align: center;
+}
+
+.team-section-content h1 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 14px;
+
+}
+
+.team-section-content p {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+.team-cart {
+  border-radius: 18px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-bottom: 20px;
+  margin-top: 58px;
+
+}
+
+
+
+
+
+.team-cart div {
+  width: 326px;
+  height: 272px;
+  border-radius: 18px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-bottom: 20px;
+  padding-left: 10px;
+
+
+}
+
+
+
 /* responsive */
 
 @media screen and (max-width: 576px) {
@@ -307,7 +368,7 @@ nav>span {
     display: none;
   }
 
-  .sm-display-none{
+  .sm-display-none {
     display: none;
   }
 
@@ -392,7 +453,8 @@ nav>span {
 
 
   }
-  .runextra{
+
+  .runextra {
     width: 350px;
     flex-direction: column;
     padding: 33px;
@@ -400,22 +462,25 @@ nav>span {
     margin: 0px 30px;
   }
 
-  .runextra div>img{
+  .runextra div>img {
     width: 287px;
     height: 170px;
   }
 
-  .runextra-content{
-  
+  .runextra-content {
+
     margin-left: 0px;
   }
 
-  .runextra-content>h1{
+  .runextra-content>h1 {
     font-size: 32px;
-    
+
 
   }
 
+  .join-btn {
+    margin-left: 20px;
+  }
 
 
 
@@ -432,4 +497,6 @@ nav>span {
   .box-6 {
     display: none;
   }
+
+
 }
