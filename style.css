@@ -142,7 +142,7 @@ nav>span {
 
 /* Change Habits Section  */
 .change-habit {
-  
+
   width: 1050px;
   min-height: 400px;
   margin: 100px auto;
@@ -176,14 +176,14 @@ nav>span {
 
 }
 
-.change-habit-cart h3{
+.change-habit-cart h3 {
   font-size: 18px;
   text-align: center;
   font-weight: 600;
   margin-bottom: 6px;
 }
 
-.change-habit-cart p{
+.change-habit-cart p {
   font-size: 14px;
   line-height: 18px;
   text-align: center;
@@ -284,7 +284,7 @@ nav>span {
   }
 
   .training-section {
-    width: 353px;
+    width: 338px;
 
   }
 
@@ -292,7 +292,48 @@ nav>span {
   .training-section>h1 {
     font-size: 32px;
     margin-bottom: 14px;
+
   }
+
+
+
+
+
+  .change-habit {
+    width: 100%;
+
+  }
+
+
+  .change-habit>h1 {
+
+    font-size: 32px;
+  }
+
+  .change-habit>p {
+
+    width: 316px;
+
+  }
+
+  .change-habit-cart {
+    padding: 43px;
+    flex-direction: column;
+    gap: 36px;
+
+
+
+
+  }
+
+  .change-habit-cart img {
+    background-color: green;
+    margin-left: 50px;
+
+
+  }
+
+
 
 
   .grid-container {
