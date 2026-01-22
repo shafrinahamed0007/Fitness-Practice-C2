@@ -592,9 +592,32 @@ footer hr{
     margin-left: 40px;
     padding-left: 0px;
     padding-bottom: 5px;
-
-
   }
+
+  footer{
+    width: 393px;
+    padding: 20px;
+    margin-top: 87px;
+   
+   
+  }
+
+  footer hr{
+  width: 354px;
+ 
+  }
+
+
+  .footer-content{
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    
+  }
+  .footer-content>div{
+    width: 317px;
+  }
+
 
 
 
