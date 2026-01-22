@@ -24,7 +24,7 @@ nav {
   justify-content: space-between;
 }
 
-nav>p {
+.logo {
   font-size: 36px;
   color: rgba(230, 83, 60, 1);
   font-weight: bold;
@@ -338,10 +338,6 @@ nav>span {
 
 }
 
-
-
-
-
 .team-cart div {
   width: 326px;
   height: 272px;
@@ -356,6 +352,72 @@ nav>span {
   padding-bottom: 20px;
   padding-left: 10px;
 
+
+}
+
+footer {
+  background: rgba(255, 255, 255, 0.1);
+  width: 100%;
+  min-height: 490px;
+  margin: 0 auto;
+  justify-items: center;
+  align-content: center;
+
+}
+
+.footer-content {
+  width: 1060px;
+  height: 250px;
+  display: flex;
+  gap: 100px;
+
+
+}
+
+.footer-content>div {
+  width: calc(100% - 66%);
+}
+
+.footer-content div ul{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+
+.footer-content div>ul li{
+  list-style-type: none;
+ 
+}
+
+.footer-content div>ul li a{
+  text-decoration: none;
+  color: white;
+  
+  
+  
+}
+
+.footer-content>div h4 {
+  margin-top: 20px;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+
+
+}
+
+footer hr{
+  width: 1056px;
+  border: 2px solid rgba(255,255,255,0.1);
+  margin-bottom: 36px;
+}
+
+.all-right{
+ 
+  font-size: 20px;
+  
 
 }
 
@@ -497,6 +559,43 @@ nav>span {
   .box-6 {
     display: none;
   }
+
+  .team-section {
+    width: 353px;
+    margin: 0px;
+  }
+
+  .team-section-content h1 {
+    font-size: 32px;
+
+
+  }
+
+  .team-section-content p {
+    text-align: center;
+
+  }
+
+  .team-section-content {
+    width: 300px;
+  }
+
+  .team-cart {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  .team-cart div {
+    margin-left: 40px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+
+
+  }
+
 
 
 }
